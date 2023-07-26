@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de estring - Upper_Lower_Case</title>
+</head>
+
+<body>
+
+    <h3>Formulário de Consulta de Curso</h3>
+
+    <p>* Objetivo: Capturar o nome do curso e apresentar o código correspondente
+        Verificar:
+        Se js_cursodig for igual a SIST, apresentar o código "SIST001/FB".
+        Caso contrário, apresentar a mensagem "Curso Inválido!".
+        Objetos e Métodos:
+        Entrada: document.form
+        Saída: document.form (para código válido no campo de saída do formulário)
+        Saída: window.alert (para código inválido por janela de alerta)
+        Formulário: formcurso
+        Função: cadcurso
+        Evento: onclick </p><br><br>
+    <p>
+    <form name="formcurso" action="" method="post">
+        Digite seu Curso: <input type="text" name="f_cursodig" size="8" maxlength="4" /> (SIST)<p></p>
+        <input type="button" name="btn_validar" value="Validar" onclick="cadcurso()" />
+        <input type="reset" name="btn_cancelar" value="Cancelar" /><p></p>
+        C&oacute;digo do Curso: <input type="text" name="f_codcurso" size="15" maxlength="10" />
+    </form>
+
+    <script src="Upper_Lower_Case.js"></script>
+
+</body>
+
+</html>
