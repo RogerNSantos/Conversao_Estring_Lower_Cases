@@ -1,4 +1,4 @@
-# Conversao_Estring_Lower_Cases
+# Conversao_Estring Upper_Lower_Cases
 Aprendendo Conversão de estring - Upper_Lower_Case Curso JavaScripit na Fundação Bradesco
 
 Objetivo: Capturar o nome do curso e apresentar o código correspondente
